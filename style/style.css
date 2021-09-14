@@ -1,0 +1,619 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: Assistant;
+}
+
+.section-container-fluid .section-header {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-container-fluid .section-header .background-header {
+  height: 100%;
+  background: #333;
+}
+
+.section-container-fluid .section-header .background-header .foto {
+  opacity: 2;
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 260px;
+  height: 260px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.section-container-fluid .section-header .background-header .foto img {
+  width: 100%;
+}
+
+.section-container-fluid .section-header .background-header .identitas {
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.section-container-fluid .section-header .background-header .identitas span {
+  margin-left: -70px;
+  font-family: Assistant;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+  text-align: left;
+  color: #fff;
+}
+
+.section-container-fluid .section-header .background-header .identitas h1 {
+  margin-left: -70px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-family: Assistant;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+  color: #fff;
+}
+
+.section-container-fluid .section-header .background-header .identitas p {
+  margin-left: -70px;
+  font-family: Assistant;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: left;
+  color: #fff;
+}
+
+.section-container-fluid .section-header .background-header .kontak {
+  padding-top: 20px;
+  margin-top: 24px;
+  width: 92%;
+  border-top: 1px solid white;
+}
+
+.section-container-fluid .section-header .background-header .kontak .item {
+  padding: 0px 30px 0 0;
+}
+
+.section-container-fluid .section-header .background-header .kontak .item a {
+  padding: 0px;
+  text-decoration: none;
+}
+
+.section-container-fluid .section-header .background-header .kontak .item .icon {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.section-container-fluid .section-header .background-header .kontak .item .icon i {
+  font-size: 50px;
+  color: white;
+}
+
+.section-container-fluid .section-header .background-header .kontak .item .description p {
+  padding: 0px;
+  margin: 0px;
+  font-family: Assistant;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  color: #fff;
+}
+
+.section-container-fluid .section-header .background-header .kontak .item:hover {
+  background-color: rgba(255, 255, 255, 0.74);
+}
+
+.section-container-fluid .section-header .background-header .kontak .item:hover i {
+  color: rgba(0, 0, 0, 0.644);
+}
+
+.section-container-fluid .section-header .background-header .kontak .item:hover p {
+  color: rgba(0, 0, 0, 0.644);
+}
+
+.section-container-fluid .left {
+  padding: 80px;
+}
+
+.section-container-fluid .left .konten {
+  margin-bottom: 50px;
+}
+
+.section-container-fluid .left .konten .icon-content {
+  padding: 0px;
+  font-size: 40px;
+  color: white;
+}
+
+.section-container-fluid .left .konten .teks-judul {
+  padding: 0px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.section-container-fluid .left .konten .teks-judul p {
+  margin-left: 10px;
+  vertical-align: middle;
+  padding: 0px;
+  font-family: Assistant;
+  font-weight: 600;
+  text-align: left;
+  color: #fff;
+}
+
+.section-container-fluid .left .konten .desc-content {
+  margin-top: 10px;
+  padding: 0px;
+  margin-left: -10px;
+}
+
+.section-container-fluid .left .konten .desc-content p {
+  font-family: Assistant;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: left;
+  color: #fff;
+}
+
+.section-container-fluid .left .konten .pendidikan {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  border-left: 1px solid white;
+}
+
+.section-container-fluid .left .konten .pendidikan ul {
+  margin-left: -12px;
+}
+
+.section-container-fluid .left .konten .pendidikan ul li {
+  font-family: Assistant;
+  font-weight: normal;
+  font-size: 28px;
+  text-align: left;
+  color: #fff;
+}
+
+.section-container-fluid .left .konten .pendidikan ul li .edu {
+  font-size: 20px;
+}
+
+.section-container-fluid .left .konten .pendidikan ul li p {
+  font-family: Assistant;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+  color: #fff;
+}
+
+.section-container-fluid .left .konten .organisasi {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  border-left: 1px solid white;
+}
+
+.section-container-fluid .left .konten .organisasi ul {
+  margin-left: -12px;
+}
+
+.section-container-fluid .left .konten .organisasi ul li {
+  font-family: Assistant;
+  font-weight: normal;
+  font-size: 28px;
+  text-align: left;
+  color: #fff;
+}
+
+.section-container-fluid .left .konten .organisasi ul li .org {
+  font-size: 20px;
+}
+
+.section-container-fluid .left .konten .organisasi ul li p {
+  font-family: Assistant;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+  color: #fff;
+}
+
+.section-container-fluid .left .konten .sertifikasi {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  border-left: 1px solid white;
+}
+
+.section-container-fluid .left .konten .sertifikasi ul {
+  margin-left: -12px;
+}
+
+.section-container-fluid .left .konten .sertifikasi ul li {
+  font-family: Assistant;
+  font-weight: normal;
+  font-size: 28px;
+  text-align: left;
+  color: #fff;
+}
+
+.section-container-fluid .left .konten .sertifikasi ul li .crf {
+  font-size: 18px;
+}
+
+.section-container-fluid .left .konten .sertifikasi ul li .crf a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.section-container-fluid .right {
+  padding: 90px;
+}
+
+.section-container-fluid .right .konten-kanan {
+  margin-bottom: 50px;
+}
+
+.section-container-fluid .right .konten-kanan .judul {
+  margin-left: -100px;
+  padding: 10px;
+  width: 80%;
+  background: #333;
+  vertical-align: middle;
+  -webkit-box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.38);
+          box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.38);
+}
+
+.section-container-fluid .right .konten-kanan .judul h2 {
+  margin-left: 80px;
+  font-family: Assistant;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.section-container-fluid .right .konten-kanan .desc-konten-kanan {
+  margin-left: -30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.section-container-fluid .right .konten-kanan .desc-konten-kanan table {
+  font-family: Assistant;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  color: #000;
+}
+
+.section-container-fluid .right .konten-kanan .desc-konten-kanan table td {
+  padding: 2px;
+}
+
+.section-container-fluid .right .konten-kanan .desc-konten-kanan table .table-row {
+  width: 300px;
+}
+
+.section-container-fluid .right .konten-kanan .desc-pengalaman {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-left: -24px;
+  border-left: 1px solid black;
+}
+
+.section-container-fluid .right .konten-kanan .desc-pengalaman ul {
+  margin-top: 30px;
+  margin-left: -12px;
+}
+
+.section-container-fluid .right .konten-kanan .desc-pengalaman ul li {
+  font-family: Assistant;
+  font-weight: normal;
+  font-size: 28px;
+  text-align: left;
+  color: #000;
+}
+
+.section-container-fluid .right .konten-kanan .desc-pengalaman ul li .peng {
+  font-size: 20px;
+  font-family: Assistant;
+  font-weight: 600;
+  text-align: left;
+  color: #333;
+}
+
+.section-container-fluid .right .konten-kanan .desc-pengalaman ul li p {
+  font-family: Assistant;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  color: #333;
+}
+
+.section-container-fluid .right .konten-kanan .desc-project {
+  margin-top: 20px;
+  margin-left: -24px;
+}
+
+.section-container-fluid .right .konten-kanan .desc-project .accordion {
+  margin-top: 30px;
+}
+
+.footer {
+  vertical-align: middle;
+  z-index: 9999;
+  min-height: 30px;
+  margin-top: -30px;
+  width: 30%;
+  -webkit-box-shadow: 0px -6px 12px rgba(0, 0, 0, 0.38);
+          box-shadow: 0px -6px 12px rgba(0, 0, 0, 0.38);
+}
+
+.footer a {
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  font-family: Assistant;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: left;
+  color: #e9e9e9;
+}
+
+.footer:hover {
+  background-color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+  .section-container-fluid {
+    width: 100%;
+  }
+  .section-container-fluid .section-header {
+    height: 620px;
+  }
+  .section-container-fluid .section-header .background-header {
+    height: 100%;
+    text-align: center;
+  }
+  .section-container-fluid .section-header .background-header .identitas {
+    margin-top: 20px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+  .section-container-fluid .section-header .background-header .identitas span {
+    margin-left: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .section-container-fluid .section-header .background-header .identitas h1 {
+    margin-left: 0px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Assistant;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+  }
+  .section-container-fluid .section-header .background-header .identitas p {
+    margin-left: 0px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .section-container-fluid .section-header .background-header .kontak {
+    padding-top: 12px;
+    margin-top: 12px;
+    width: 92%;
+    border-top: 1px solid white;
+  }
+  .section-container-fluid .section-header .background-header .kontak .item {
+    margin-bottom: 10px;
+  }
+  .section-container-fluid .section-header .background-header .kontak .item a {
+    text-decoration: none;
+  }
+  .section-container-fluid .section-header .background-header .kontak .item .icon {
+    vertical-align: middle;
+    text-align: center;
+  }
+  .section-container-fluid .section-header .background-header .kontak .item .icon i {
+    font-size: 36px;
+    color: white;
+  }
+  .section-container-fluid .section-header .background-header .kontak .item .description p {
+    text-decoration: none;
+    font-family: Assistant;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+  }
+  .section-container-fluid .section-header .background-header .kontak .item:hover {
+    background-color: rgba(255, 255, 255, 0.74);
+  }
+  .section-container-fluid .section-header .background-header .kontak .item:hover i {
+    color: rgba(0, 0, 0, 0.644);
+  }
+  .section-container-fluid .section-header .background-header .kontak .item:hover p {
+    color: rgba(0, 0, 0, 0.644);
+  }
+  .section-container-fluid .left {
+    padding: 50px;
+  }
+  .section-container-fluid .left .konten {
+    margin-bottom: 30px;
+  }
+  .section-container-fluid .left .konten .icon-content {
+    padding: 0px;
+    font-size: 30px;
+    color: white;
+  }
+  .section-container-fluid .left .konten .teks-judul {
+    padding: 0px;
+    font-size: 16px;
+    vertical-align: middle;
+  }
+  .section-container-fluid .left .konten .teks-judul p {
+    margin-left: 18px;
+    vertical-align: middle;
+    padding: 0px;
+    font-family: Assistant;
+    font-weight: 600;
+    text-align: left;
+    color: #fff;
+  }
+  .section-container-fluid .left .konten .desc-content {
+    margin-top: 10px;
+    padding: 0px;
+    margin-left: -10px;
+  }
+  .section-container-fluid .left .konten .desc-content p {
+    font-family: Assistant;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+  }
+  .section-container-fluid .left .konten .pendidikan {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border-left: 1px solid white;
+  }
+  .section-container-fluid .left .konten .pendidikan ul {
+    margin-left: -12px;
+  }
+  .section-container-fluid .left .konten .pendidikan ul li {
+    font-family: Assistant;
+    font-weight: normal;
+    font-size: 28px;
+    text-align: left;
+    color: #fff;
+  }
+  .section-container-fluid .left .konten .pendidikan ul li .edu {
+    font-size: 20px;
+  }
+  .section-container-fluid .left .konten .pendidikan ul li p {
+    font-family: Assistant;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+    color: #fff;
+  }
+  .section-container-fluid .left .konten .organisasi {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border-left: 1px solid white;
+  }
+  .section-container-fluid .left .konten .organisasi ul {
+    margin-left: -12px;
+  }
+  .section-container-fluid .left .konten .organisasi ul li {
+    font-family: Assistant;
+    font-weight: normal;
+    font-size: 28px;
+    text-align: left;
+    color: #fff;
+  }
+  .section-container-fluid .left .konten .organisasi ul li .org {
+    font-size: 20px;
+  }
+  .section-container-fluid .left .konten .organisasi ul li p {
+    font-family: Assistant;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+    color: #fff;
+  }
+  .section-container-fluid .left .konten .sertifikasi {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border-left: 1px solid white;
+  }
+  .section-container-fluid .left .konten .sertifikasi ul {
+    margin-left: -12px;
+  }
+  .section-container-fluid .left .konten .sertifikasi ul li {
+    font-family: Assistant;
+    font-weight: normal;
+    font-size: 28px;
+    text-align: left;
+    color: #fff;
+  }
+  .section-container-fluid .left .konten .sertifikasi ul li .crf {
+    font-size: 18px;
+  }
+  .section-container-fluid .left .konten .sertifikasi ul li .crf a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .section-container-fluid .right {
+    padding: 90px;
+  }
+  .section-container-fluid .right .konten-kanan {
+    margin-bottom: 30px;
+  }
+  .section-container-fluid .right .konten-kanan .judul {
+    margin-left: -90px;
+    padding: 10px;
+    width: 100%;
+    background: #333;
+    vertical-align: middle;
+    -webkit-box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.38);
+            box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.38);
+  }
+  .section-container-fluid .right .konten-kanan .judul h2 {
+    margin-left: 50px;
+    font-family: Assistant;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+    vertical-align: middle;
+  }
+  .section-container-fluid .right .konten-kanan .desc-konten-kanan {
+    margin-left: -30px;
+    margin-top: 20px;
+  }
+  .section-container-fluid .right .konten-kanan .desc-konten-kanan table {
+    font-family: Assistant;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+    color: #000;
+  }
+  .section-container-fluid .right .konten-kanan .desc-konten-kanan table td {
+    padding: 2px;
+  }
+  .section-container-fluid .right .konten-kanan .desc-konten-kanan table .table-row {
+    width: 300px;
+  }
+  .footer {
+    vertical-align: middle;
+    z-index: 9999;
+    min-height: 30px;
+    margin-top: -30px;
+    width: 60%;
+    -webkit-box-shadow: 0px -6px 12px rgba(0, 0, 0, 0.38);
+            box-shadow: 0px -6px 12px rgba(0, 0, 0, 0.38);
+  }
+  .footer a {
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: Assistant;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #e9e9e9;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,571 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Assistant;
+}
+
+// Style from desktop
+.section-container-fluid {
+    .section-header {
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        .background-header {
+            height: 100%;
+            background: #333;
+            .foto {
+                opacity: 2;
+                margin-top: 20px;
+                margin-left: 50px;
+                width: 260px;
+                height: 260px;
+                background-color: white;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                }
+            }
+            .identitas {
+                margin-left: 20px;
+                margin-top: 60px;
+                span {
+                    margin-left: -70px;
+                    font-family: Assistant;
+                    font-weight: bold;
+                    text-decoration: underline;
+                    font-size: 20px;
+                    text-align: left;
+                    color: #fff;
+                }
+                h1 {
+                    margin-left: -70px;
+                    margin-top: 40px;
+                    margin-bottom: 0px;
+                    padding-bottom: 0px;
+                    font-family: Assistant;
+                    font-weight: bold;
+                    font-size: 30px;
+                    text-align: left;
+                    color: #fff;
+                }
+                p {
+                    margin-left: -70px;
+                    font-family: Assistant;
+                    font-weight: 300;
+                    font-size: 18px;
+                    text-align: left;
+                    color: #fff;
+                }
+            }
+            .kontak {
+                padding-top: 20px;
+                margin-top: 24px;
+                width: 92%;
+                border-top: 1px solid white;
+                .item {
+                    padding: 0px 30px 0 0;
+                    a {
+                        padding: 0px;
+                        text-decoration: none;
+                    }
+                    .icon {
+                        vertical-align: middle;
+                        text-align: center;
+                        i {
+                            font-size: 50px;
+                            color: white;
+                        }
+                    }
+                    .description {
+                        p {
+                            padding: 0px;
+                            margin: 0px;
+                            font-family: Assistant;
+                            font-weight: 400;
+                            font-size: 18px;
+                            text-align: left;
+                            color: #fff;
+                        }
+                    }
+                }
+                .item:hover {
+                    background-color: rgba(255, 255, 255, 0.74);
+                }
+                .item:hover i {
+                    color: rgba(0, 0, 0, 0.644);
+                }
+                .item:hover p {
+                    color: rgba(0, 0, 0, 0.644);
+                }
+            }
+        }
+    }
+    // Konten sisi kiri
+    .left {
+        padding: 80px;
+        .konten {
+            margin-bottom: 50px;
+            .icon-content {
+                padding: 0px;
+                font-size: 40px;
+                color: white;
+            }
+            .teks-judul {
+                padding: 0px;
+                font-size: 20px;
+                vertical-align: middle;
+                p {
+                    margin-left: 10px;
+                    vertical-align: middle;
+                    padding: 0px;
+                    font-family: Assistant;
+                    font-weight: 600;
+                    text-align: left;
+                    color: #fff;
+                }
+            }
+            .desc-content {
+                margin-top: 10px;
+                padding: 0px;
+                margin-left: -10px;
+                p {
+                    font-family: Assistant;
+                    font-weight: 300;
+                    font-size: 20px;
+                    text-align: left;
+                    color: #fff;
+                }
+            }
+            .pendidikan {
+                margin-bottom: 50px;
+                margin-top: 20px;
+                border-left: 1px solid white;
+                ul {
+                    margin-left: -12px;
+                    li {
+                        font-family: Assistant;
+                        font-weight: normal;
+                        font-size: 28px;
+                        text-align: left;
+                        color: #fff;
+                        .edu {
+                            font-size: 20px;
+                        }
+                        p {
+                            font-family: Assistant;
+                            font-weight: 300;
+                            font-size: 16px;
+                            text-align: left;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            .organisasi {
+                margin-bottom: 50px;
+                margin-top: 20px;
+                border-left: 1px solid white;
+                ul {
+                    margin-left: -12px;
+                    li {
+                        font-family: Assistant;
+                        font-weight: normal;
+                        font-size: 28px;
+                        text-align: left;
+                        color: #fff;
+                        .org {
+                            font-size: 20px;
+                        }
+                        p {
+                            font-family: Assistant;
+                            font-weight: 300;
+                            font-size: 16px;
+                            text-align: left;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            .sertifikasi {
+                margin-bottom: 50px;
+                margin-top: 20px;
+                border-left: 1px solid white;
+                ul {
+                    margin-left: -12px;
+                    li {
+                        font-family: Assistant;
+                        font-weight: normal;
+                        font-size: 28px;
+                        text-align: left;
+                        color: #fff;
+                        .crf {
+                            font-size: 18px;
+                            a {
+                                color: #fff;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Konten sisi kanan
+    .right {
+        padding: 90px;
+        .konten-kanan {
+            margin-bottom: 50px;
+            .judul {
+                margin-left: -100px;
+                padding: 10px;
+                width: 80%;
+                background: #333;
+                vertical-align: middle;
+                box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.38);
+                h2 {
+                    margin-left: 80px;
+                    font-family: Assistant;
+                    font-weight: 600;
+                    font-size: 20px;
+                    text-align: left;
+                    color: #fff;
+                    vertical-align: middle;
+                }
+            }
+            .desc-konten-kanan {
+                margin-left: -30px;
+                margin-top: 20px;
+                margin-bottom: 50px;
+                table {
+                    font-family: Assistant;
+                    font-weight: 600;
+                    font-size: 20px;
+                    text-align: left;
+                    color: #000;
+                    td {
+                        padding: 2px;
+                    }
+                    .table-row {
+                        width: 300px;
+                    }
+                }
+            }
+            .desc-pengalaman {
+                margin-bottom: 50px;
+                margin-top: 20px;
+                margin-left: -24px;
+                border-left: 1px solid black;
+                ul {
+                    margin-top: 30px;
+                    margin-left: -12px;
+                    li {
+                        font-family: Assistant;
+                        font-weight: normal;
+                        font-size: 28px;
+                        text-align: left;
+                        color: #000;
+                        .peng {
+                            font-size: 20px;
+                            font-family: Assistant;
+                            font-weight: 600;
+                            text-align: left;
+                            color: #333;
+                        }
+                        p {
+                            font-family: Assistant;
+                            font-size: 16px;
+                            font-weight: 300;
+                            text-align: left;
+                            color: #333;
+                        }
+                    }
+                }
+            }
+            .desc-project {
+                margin-top: 20px;
+                margin-left: -24px;
+                .accordion {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    vertical-align: middle;
+    z-index: 9999;
+    min-height: 30px;
+    margin-top: -30px;
+    width: 30%;
+    box-shadow: 0px -6px 12px rgba(0, 0, 0, 0.38);
+    a {
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: none;
+        font-family: Assistant;
+        font-weight: normal;
+        font-size: 20px;
+        text-align: left;
+        color: rgb(233, 233, 233);
+    }
+}
+
+.footer:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+// Style from mobile
+@media only screen and (max-width: 1024px) {
+    .section-container-fluid {
+        width: 100%;
+        .section-header {
+            height: 620px;
+            .background-header {
+                height: 100%;
+                text-align: center;
+                .identitas {
+                    margin-top: 20px;
+                    padding: 0px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    text-align: center;
+                    span {
+                        margin-left: 0px;
+                        margin-top: 0px;
+                        font-weight: bold;
+                        font-size: 20px;
+                    }
+                    h1 {
+                        margin-left: 0px;
+                        margin-top: 10px;
+                        text-align: center;
+                        font-family: Assistant;
+                        font-weight: bold;
+                        font-size: 24px;
+                        color: #fff;
+                    }
+                    p {
+                        margin-left: 0px;
+                        text-align: center;
+                        font-weight: 300;
+                        font-size: 14px;
+                    }
+                }
+                .kontak {
+                    padding-top: 12px;
+                    margin-top: 12px;
+                    width: 92%;
+                    border-top: 1px solid white;
+                    .item {
+                        margin-bottom: 10px;
+                        a {
+                            text-decoration: none;
+                        }
+                        .icon {
+                            vertical-align: middle;
+                            text-align: center;
+                            i {
+                                font-size: 36px;
+                                color: white;
+                            }
+                        }
+                        .description {
+                            p {
+                                text-decoration: none;
+                                font-family: Assistant;
+                                font-weight: 500;
+                                font-size: 14px;
+                                text-align: left;
+                                color: #fff;
+                            }
+                        }
+                    }
+                    .item:hover {
+                        background-color: rgba(255, 255, 255, 0.74);
+                    }
+                    .item:hover i {
+                        color: rgba(0, 0, 0, 0.644);
+                    }
+                    .item:hover p {
+                        color: rgba(0, 0, 0, 0.644);
+                    }
+                }
+            }
+        }
+        // Konten sisi kiri
+        .left {
+            padding: 50px;
+            .konten {
+                margin-bottom: 30px;
+                .icon-content {
+                    padding: 0px;
+                    font-size: 30px;
+                    color: white;
+                }
+                .teks-judul {
+                    padding: 0px;
+                    font-size: 16px;
+                    vertical-align: middle;
+                    p {
+                        margin-left: 18px;
+                        vertical-align: middle;
+                        padding: 0px;
+                        font-family: Assistant;
+                        font-weight: 600;
+                        text-align: left;
+                        color: #fff;
+                    }
+                }
+                .desc-content {
+                    margin-top: 10px;
+                    padding: 0px;
+                    margin-left: -10px;
+                    p {
+                        font-family: Assistant;
+                        font-weight: 300;
+                        font-size: 14px;
+                        text-align: left;
+                        color: #fff;
+                    }
+                }
+                .pendidikan {
+                    margin-bottom: 50px;
+                    margin-top: 20px;
+                    border-left: 1px solid white;
+                    ul {
+                        margin-left: -12px;
+                        li {
+                            font-family: Assistant;
+                            font-weight: normal;
+                            font-size: 28px;
+                            text-align: left;
+                            color: #fff;
+                            .edu {
+                                font-size: 20px;
+                            }
+                            p {
+                                font-family: Assistant;
+                                font-weight: 300;
+                                font-size: 16px;
+                                text-align: left;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+                .organisasi {
+                    margin-bottom: 50px;
+                    margin-top: 20px;
+                    border-left: 1px solid white;
+                    ul {
+                        margin-left: -12px;
+                        li {
+                            font-family: Assistant;
+                            font-weight: normal;
+                            font-size: 28px;
+                            text-align: left;
+                            color: #fff;
+                            .org {
+                                font-size: 20px;
+                            }
+                            p {
+                                font-family: Assistant;
+                                font-weight: 300;
+                                font-size: 16px;
+                                text-align: left;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+                .sertifikasi {
+                    margin-bottom: 50px;
+                    margin-top: 20px;
+                    border-left: 1px solid white;
+                    ul {
+                        margin-left: -12px;
+                        li {
+                            font-family: Assistant;
+                            font-weight: normal;
+                            font-size: 28px;
+                            text-align: left;
+                            color: #fff;
+                            .crf {
+                                font-size: 18px;
+                                a {
+                                    color: #fff;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // Konten sisi kanan
+        .right {
+            padding: 90px;
+            .konten-kanan {
+                margin-bottom: 30px;
+                .judul {
+                    margin-left: -90px;
+                    padding: 10px;
+                    width: 100%;
+                    background: #333;
+                    vertical-align: middle;
+                    box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.38);
+                    h2 {
+                        margin-left: 50px;
+                        font-family: Assistant;
+                        font-weight: 600;
+                        font-size: 20px;
+                        text-align: left;
+                        color: #fff;
+                        vertical-align: middle;
+                    }
+                }
+                .desc-konten-kanan {
+                    margin-left: -30px;
+                    margin-top: 20px;
+                    table {
+                        font-family: Assistant;
+                        font-weight: 600;
+                        font-size: 14px;
+                        text-align: left;
+                        color: #000;
+                        td {
+                            padding: 2px;
+                        }
+                        .table-row {
+                            width: 300px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        vertical-align: middle;
+        z-index: 9999;
+        min-height: 30px;
+        margin-top: -30px;
+        width: 60%;
+        box-shadow: 0px -6px 12px rgba(0, 0, 0, 0.38);
+        a {
+            padding: 0px;
+            width: 100%;
+            text-align: center;
+            vertical-align: middle;
+            text-decoration: none;
+            font-family: Assistant;
+            font-weight: normal;
+            font-size: 20px;
+            text-align: left;
+            color: rgb(233, 233, 233);
+        }
+    }
+}
